@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
 public class First {
-    public  static void main(String[]age)
-    {
+    public  static void main(String[]age) {
+        logic();
+    }
+
+    public static void logic(){
         Scanner scanner = new Scanner(System.in);
         double i;
         double sum = 0;
